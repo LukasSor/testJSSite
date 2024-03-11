@@ -1,0 +1,56 @@
+/* Body-Stil */
+body {
+    font-family: Arial, sans-serif; /* Schriftart */
+    background-color: #f0f0f0; /* Hintergrundfarbe */
+    margin: 0; /* Außenabstand */
+    padding: 0; /* Innenabstand */
+    display: flex; /* Flexibles Layout */
+    flex-direction: column; /* Spaltenlayout */
+    align-items: center; /* Zentriert ausrichten */
+}
+
+/* Überschriften-Stil */
+h1 {
+    color: #333; /* Textfarbe */
+}
+
+/* Button-Stil */
+button {
+    padding: 10px 20px; /* Innenabstand (oben/unten, links/rechts) */
+    background-color: #0074d9; /* Hintergrundfarbe */
+    color: #fff; /* Textfarbe */
+    border: none; /* Kein Rahmen */
+    border-radius: 5px; /* Abrundung der Ecken */
+    margin: 5px; /* Außenabstand */
+    cursor: pointer; /* Zeiger bei Hover */
+}
+
+/* Textfeld-Stil */
+textarea {
+    margin-top: 20px; /* Außenabstand oben */
+    padding: 10px; /* Innenabstand */
+    background-color: #fff; /* Hintergrundfarbe */
+    border: 1px solid #ccc; /* Rahmen mit Grau */
+    border-radius: 5px; /* Abrundung der Ecken */
+    resize: none; /* Größenänderung deaktivieren */
+    width: 50%; /* Breite in Prozent */
+    max-width: 100%; /* Maximale Breite */
+    height: 300px; /* Höhe */
+    box-sizing: border-box; /* Innenraum im Rahmen */
+}
+
+/* Horizontale Linien-Stil */
+hr {
+    border: 1px solid #ccc; /* Linienstil mit Grau */
+    width: 100%; /* Volle Breite */
+}
+
+/* Button Hover-Stil */
+button:hover {
+    background-color: #0056b3; /* Hintergrund bei Hover */
+}
+
+/* Button Klick-Stil */
+button:active {
+    background-color: #003d72; /* Hintergrund bei Klick */
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <title>JavaScript-Funktionen</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <button id="austauschenButton">Austauschen</button>
+        <button id="vereinigungsmengeButton">Vereinigungsmenge</button>
+        <button id="printLebensmittelButton">Lebensmittel ausgeben</button>
+        <button id="addLebensmittelButton">Lebensmittel hinzufügen</button>
+        <button id="isPalindromButton">Palindrom prüfen</button>
+        <button id="folge">Folge</button>
+        <p><hr></p>
+        <textarea id="output" rows="5" cols="40" readonly></textarea>
+        
+        <script>
+            document.getElementById("austauschenButton").addEventListener("click", inputAustauschen);
+            document.getElementById("vereinigungsmengeButton").addEventListener("click", inputVereinigungsmenge);
+            document.getElementById("printLebensmittelButton").addEventListener("click", ausgabeLebensmittel);
+            document.getElementById("addLebensmittelButton").addEventListener("click", addLebensmittel);
+            document.getElementById("isPalindromButton").addEventListener("click", inputIsPalindrom);
+            document.getElementById("folge").addEventListener("click", inputFolge);
+        </script>
+    </body>
+</html>
